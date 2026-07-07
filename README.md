@@ -1,4 +1,4 @@
-This project provides the theme used @ joshuaclugston.com for plots creating using Python. 
+This project provides the theme used @ joshuaclugston.com for plots created using Python. 
 It provides the theme files, and bash/zsh script which moves the theme to a specified directory 
 before cleaning up. 
 
@@ -7,8 +7,8 @@ before cleaning up.
 - Matplotlib theme 
 - Preview file to demonstrate the theme 
 - bash/zsh script(s) for file processing/clean-up   
-  -- bash: move.sh moves the matplotlib theme to a specified file_path
-  -- zsh: move.zsh move the matplotlib theme to a specified file_path
+  - bash: move.sh moves the matplotlib theme to a specified file_path
+  - zsh: move.zsh move the matplotlib theme to a specified file_path
 
 ### Instructions 
 For using the provided theme, after importing matplotlib.pyplot (etc..) include
