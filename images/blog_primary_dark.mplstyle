@@ -1,0 +1,12 @@
+axes.facecolor : "#1d1d1d"
+ytick.color : "#e6e6e6"
+xtick.color : "#e6e6e6"
+axes.labelcolor : "#e6e6e6"
+axes.titlecolor : "#e6e6e6"
+figure.facecolor : "#1d1d1d"
+axes.titlesize : 18
+axes.labelsize : 16
+lines.linewidth : 3
+lines.markersize : 3
+xtick.labelsize : 12
+ytick.labelsize : 12
