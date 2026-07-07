@@ -2,4 +2,4 @@ share
 lib
 include
 bin
-pyenv.cfg
+pyvenv.cfg
