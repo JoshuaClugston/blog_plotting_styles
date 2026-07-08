@@ -1,5 +1,5 @@
-This repository provides the style used @joshuaclugston.com for plots/figures created using Python. 
-As outlined below, included here is the matplotlib style file, a bash script which moves the style file
+This repository provides the style used @joshuaclugston.com for plots/figures created with Python's Matplotlib. 
+As outlined below, included here is the Matplotlib style file, a bash script which moves the style file
 to a specified directory before optionally cleaning up, and a test script for previewing the style on a partially 
 randomly generated plot. 
 
@@ -8,10 +8,10 @@ randomly generated plot.
 - Matplotlib style .mplstyle file 
 - Preview .py script to demonstrate the style on a simple plot generated with random data 
 - bash script for file processing/clean-up   
-  - move.sh moves the matplotlib style to a specified file_path then optional cleans up
+  - move.sh moves the Matplotlib style to a specified file_path then optional cleans up
 
 ### Instructions 
-For using the provided matplotlib style, after importing matplotlib.pyplot include
+For using the provided Matplotlib style, after importing matplotlib.pyplot include
 
 `style.use('<path>/blog_primary_dark.mplstyle')` 
 
