@@ -1,6 +1,6 @@
 This repository provides the style used @joshuaclugston.com for plots/figures created using Python. 
 As outlined below, included here is the matplotlib style file, a bash script which moves the style file
-to a specified directory before cleaning up, and a test script for previewing the style on a partially 
+to a specified directory before optionally cleaning up, and a test script for previewing the style on a partially 
 randomly generated plot. 
 
 ### Contents
