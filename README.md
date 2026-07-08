@@ -8,7 +8,7 @@ randomly generated plot.
 - Matplotlib style .mplstyle file 
 - Preview .py script to demonstrate the style on a simple plot generated with random data 
 - bash script for file processing/clean-up   
-  - bash: move.sh moves the matplotlib style to a specified file_path then optional cleans up
+  - move.sh moves the matplotlib style to a specified file_path then optional cleans up
 
 ### Instructions 
 For using the provided matplotlib style, after importing matplotlib.pyplot include
