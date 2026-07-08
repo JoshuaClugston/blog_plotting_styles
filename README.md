@@ -17,4 +17,5 @@ For using the provided matplotlib style, after importing matplotlib.pyplot inclu
 
 in your `project.py` file, where '\<path\>' is the file_path specified in your call to `move.sh`. 
 
-- See `preview.py` for an example of the style's use. 
+- See `preview.py` for an example of the style's use.
+  - NOTE: `preview.py` assumes that the style file has not been moved before its use. 
