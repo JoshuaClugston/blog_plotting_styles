@@ -7,9 +7,11 @@ echo "$file_path"
 # check that file path is valid ... 
 if [ -d $file_path ]; then 
 
-    image=$(find . -name "blog_primary_dark.mplstyle") 
+    image=$(find . -name "blog_primary_dark.mplstyle")
+    move_script=$(find .. -name "move.sh")
+    directory=$(find .. -name "images") 
     
-    mv $image $file_path
+    mv "$image" "$file_path"
 
     ## clean-up? 
     echo -n "Remove move.sh? (yes/no) "
@@ -18,7 +20,7 @@ if [ -d $file_path ]; then
 
     if [ $? = 0 ]; then 
         echo "Removing move.sh..."
-        rm ./testing.sh
+        rm "$move_script"
         echo "Done"
     fi
 
@@ -28,10 +30,10 @@ if [ -d $file_path ]; then
 
     if [ $? = 0 ]; then 
         echo "Removing images/..."
-        rm -r ./testdir  
+        rm -r "$directory"
         echo "Done"
     fi
 else
-    echo "File path $file_path does not exist..."
+    echo "File path $file_path does not exist."
     exit 1 # exit with error code 
 fi
