@@ -5,7 +5,7 @@ before cleaning up, and a test script for previewing the style on a partially ra
 ### Contents
 - Requirements.txt file containing necessary modules/packages for previewing style 
 - Matplotlib style .mplstyle file 
-- Preview .py script to demonstrate the style on plot generated with random data 
+- Preview .py script to demonstrate the style on a simple plot generated with random data 
 - bash script for file processing/clean-up   
   - bash: move.sh moves the matplotlib style to a specified file_path
 

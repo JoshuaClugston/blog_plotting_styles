@@ -1,11 +1,14 @@
 import matplotlib.pyplot as plt 
 import numpy as np
+import os
 
-plt.style.use('./images/blog_primary_dark.mplstyle') # use the style defined in the images dir
+dirname = os.path.dirname(__file__)
+file_path = os.path.join(dirname, "images/blog_primary_dark.mplstyle")
+plt.style.use(file_path) # use the style defined in the images dir
 
-x = 10*np.random.rand(10) - 10*np.random.rand(10)
-y = 10*np.random.rand(10)
-z = np.arange(-5, 10, .1)
+x = 5*np.random.rand(10) - 5*np.random.rand(10)
+y = 5*np.random.rand(10)
+z = np.arange(-5, 5, .1)
 f = lambda z: (z + abs(z)) / 2 
 
 print("Numpy for x: ", x)

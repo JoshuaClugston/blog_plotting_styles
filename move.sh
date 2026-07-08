@@ -1,23 +1,30 @@
 #!/bin/bash 
-echo -n 'Provide destination for file relocation: '
+echo -n "Provide destination for file relocation: "
 read file_path
 echo "$file_path"
 
-mv ./images/blog_primary_dark.mplstyle $file_path # move the style file to the appropriate location
+#mv ./images/blog_primary_dark.mplstyle $file_path # move the style file to the appropriate location
+
+#touch ./testing.sh
+#mkdir ./testdir
 
 ## clean-up? 
-echo -n 'Remove move.sh? (yes/no)'
-read var
-if ["$var" != "yes"] then 
+echo -n "Remove move.sh? (yes/no) "
+read var1
+test "$(echo "yes" | tr '[:upper:]' '[:lower:]')" = "$(echo "$var1" | tr '[:upper:]' '[:lower:]')"
+
+if [ $? = 0 ]; then 
    echo "Removing move.sh..."
-   rm ./move.sh
+   rm ./testing.sh
    echo "Done"
 fi
 
-echo -n 'Remove images/? (yes/no)'
-read var
-if ["$var2" != "yes"] then 
+echo -n "Remove images/? (yes/no) "
+read var2
+test "$(echo "yes" | tr '[:upper:]' '[:lower:]')" = "$(echo "$var2" | tr '[:upper:]' '[:lower:]')" 
+
+if [ $? = 0 ]; then 
    echo "Removing images/..."
-   rm -r ./images # something 
+   rm -r ./testdir  
    echo "Done"
 fi
