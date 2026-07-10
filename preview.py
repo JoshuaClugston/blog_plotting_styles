@@ -20,6 +20,6 @@ plt.scatter(x,y, color="r")
 plt.xlabel("x-axis")
 plt.ylabel("y-axis")
 plt.title("This is a test plot!")
-plt.show()
 plt.savefig(dirname+"/images/preview_figure")
+plt.show()
 
